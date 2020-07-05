@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_login"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_order"
+            android:title="order" />
+        <item
+            android:id="@+id/nav_user_request"
+            android:icon="@drawable/ic_user_request"
+            android:title="User Request" />
+        <item
+            android:id="@+id/nav_chart"
+            android:icon="@drawable/ic_chart"
+            android:title="Chart" />
+        <item
+            android:id="@+id/nav_doctors_profile"
+            android:icon="@drawable/ic_doctors_profile"
+            android:title="Doctors profile" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_services"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_authority"
+            android:icon="@drawable/ic_authority"
+            android:title="Authority" />
+        <item
+            android:id="@+id/nav_branches"
+            android:icon="@drawable/ic_branches"
+            android:title="Branches" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="About" />
+
+    </group>
+    <group
+        android:id="@+id/grp_2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/ic_admin"
+            android:title="Admin" />
+    </group>
+</menu>
