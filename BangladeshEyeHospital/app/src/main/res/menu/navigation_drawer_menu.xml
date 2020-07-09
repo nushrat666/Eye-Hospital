@@ -32,9 +32,9 @@
             android:icon="@drawable/ic_services"
             android:title="Services" />
         <item
-            android:id="@+id/nav_authority"
-            android:icon="@drawable/ic_authority"
-            android:title="Authority" />
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_baseline_message_24"
+            android:title="Message" />
         <item
             android:id="@+id/nav_branches"
             android:icon="@drawable/ic_branches"

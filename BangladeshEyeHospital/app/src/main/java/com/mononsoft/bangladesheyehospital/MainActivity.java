@@ -80,8 +80,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Toast.makeText(this, "Services Selected", Toast.LENGTH_SHORT).show();
                 //TODO: right the proper logic for different situations
                 break;
-            case R.id.nav_authority:
-                Toast.makeText(this, "Authority Selected", Toast.LENGTH_SHORT).show();
+            case R.id.nav_message:
+                Toast.makeText(this, "Message Selected", Toast.LENGTH_SHORT).show();
                 //TODO: right the proper logic for different situations
                 break;
             case R.id.nav_branches:
