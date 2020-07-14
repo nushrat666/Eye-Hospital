@@ -93,8 +93,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 //TODO: right the proper logic for different situations
                 break;
             case R.id.nav_about:
-                Toast.makeText(this, "About Selected", Toast.LENGTH_SHORT).show();
-                //TODO: right the proper logic for different situations
+                Intent intent1= new Intent(getApplicationContext(),AboutActivity.class);
+                startActivity(intent1);
                 break;
             case R.id.nav_admin:
                 Toast.makeText(this, "Admin Selected", Toast.LENGTH_SHORT).show();
