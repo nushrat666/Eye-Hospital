@@ -7,6 +7,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
@@ -62,8 +63,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.nav_order:
-                Toast.makeText(this, "Order Selected", Toast.LENGTH_SHORT).show();
-                //TODO: right the proper logic for different situations
+
+
+                Intent intent= new Intent(getApplicationContext(),OrderActivity.class);
+                startActivity(intent);
+
                 break;
 
             case R.id.nav_appointment:
