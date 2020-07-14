@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 //TODO: right the proper logic for different situations
                 break;
 
-            case R.id.nav_user_request:
+            case R.id.nav_appointment:
                 Toast.makeText(this, "User Request Selected", Toast.LENGTH_SHORT).show();
                 //TODO: right the proper logic for different situations
                 break;

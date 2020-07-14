@@ -124,11 +124,12 @@
                             </ImageView>
 
                             <ImageView
+                                android:layout_marginLeft="15dp"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
-                                android:layout_centerInParent="true"
+                                android:layout_centerVertical="true"
                                 android:tint="@android:color/white"
-                                app:srcCompat="@drawable/ic_appoinment"
+                                app:srcCompat="@drawable/ic_app_64"
                                 tools:ignore="VectorDrawableCompat">
 
                             </ImageView>
@@ -206,7 +207,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_centerInParent="true"
-                                android:tint="@color/green_400"
+                                android:tint="@color/green_800"
                                 app:srcCompat="@drawable/shape_circle">
 
                             </ImageView>
@@ -215,8 +216,8 @@
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_centerInParent="true"
-                                android:tint="@android:color/white"
-                                app:srcCompat="@drawable/ic_doctors_profile"
+
+                                app:srcCompat="@drawable/find_doc"
                                 tools:ignore="VectorDrawableCompat">
 
                             </ImageView>
@@ -285,8 +286,8 @@
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_centerInParent="true"
-                                android:tint="@android:color/white"
-                                app:srcCompat="@drawable/ic_payment"
+                                android:tint="#776F6F"
+                                app:srcCompat="@drawable/pay"
                                 tools:ignore="VectorDrawableCompat">
 
                             </ImageView>
@@ -371,7 +372,7 @@
                                 android:layout_height="40dp"
                                 android:layout_centerInParent="true"
                                 android:tint="@android:color/white"
-                                app:srcCompat="@drawable/ic_ser"
+                                app:srcCompat="@drawable/service"
                                 tools:ignore="VectorDrawableCompat">
 
                             </ImageView>
@@ -441,7 +442,7 @@
                                 android:layout_height="40dp"
                                 android:layout_centerInParent="true"
                                 android:tint="@android:color/white"
-                                app:srcCompat="@drawable/ic_common_eye_problems"
+                                app:srcCompat="@drawable/eye"
                                 tools:ignore="VectorDrawableCompat">
 
                             </ImageView>
@@ -516,7 +517,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_centerInParent="true"
-                                android:tint="#7C3E3E"
+                                android:tint="#A55D5D"
                                 app:srcCompat="@drawable/shape_circle">
 
                             </ImageView>
@@ -526,7 +527,7 @@
                                 android:layout_height="40dp"
                                 android:layout_centerInParent="true"
                                 android:tint="@android:color/white"
-                                app:srcCompat="@drawable/ic_prescription"
+                                app:srcCompat="@drawable/prescriptio"
                                 tools:ignore="VectorDrawableCompat">
 
                             </ImageView>
@@ -569,320 +570,6 @@
                     android:visibility="visible"
                     app:cardCornerRadius="2dp"
                     app:cardElevation="2dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:orientation="vertical"
-                        android:padding="@dimen/spacing_large">
-
-                        <RelativeLayout
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
-                            android:layout_gravity="center_horizontal">
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_centerInParent="true"
-                                android:tint="#117A65"
-                                app:srcCompat="@drawable/shape_circle">
-
-                            </ImageView>
-
-                            <ImageView
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:layout_centerInParent="true"
-                                android:tint="@android:color/white"
-                                app:srcCompat="@drawable/ic_chart"
-                                tools:ignore="VectorDrawableCompat">
-
-                            </ImageView>
-
-
-                        </RelativeLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Test Rate Chart"
-                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
-                                android:textColor="#4B8C49"
-                                android:textSize="14dp"
-                                android:textStyle="bold">
-
-
-                            </TextView>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="#4AC142"
-            android:orientation="vertical"
-            android:padding="2dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:layout_weight="1"
-                android:background="#4AC142"
-                android:orientation="horizontal">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:visibility="visible"
-                    app:cardCornerRadius="2dp"
-                    app:cardElevation="2dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:orientation="vertical"
-                        android:padding="@dimen/spacing_large">
-
-                        <RelativeLayout
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
-                            android:layout_gravity="center_horizontal">
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_centerInParent="true"
-                                android:tint="#5AA1C6"
-                                app:srcCompat="@drawable/shape_circle">
-
-                            </ImageView>
-
-                            <ImageView
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:layout_centerInParent="true"
-                                android:tint="@android:color/white"
-                                app:srcCompat="@drawable/ic_op_chart"
-                                tools:ignore="VectorDrawableCompat">
-
-                            </ImageView>
-
-
-                        </RelativeLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Operation Rate \n        Chart"
-                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
-                                android:textColor="#4B8C49"
-                                android:textSize="14dp"
-                                android:textStyle="bold">
-
-
-                            </TextView>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <View
-                    android:layout_width="2dp"
-                    android:layout_height="match_parent" />
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:visibility="visible"
-                    app:cardCornerRadius="2dp"
-                    app:cardElevation="2dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:orientation="vertical"
-                        android:padding="@dimen/spacing_large">
-
-                        <RelativeLayout
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
-                            android:layout_gravity="center_horizontal">
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_centerInParent="true"
-                                android:tint="#A861C6"
-                                app:srcCompat="@drawable/shape_circle">
-
-                            </ImageView>
-
-                            <ImageView
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:layout_centerInParent="true"
-                                android:tint="@android:color/white"
-                                app:srcCompat="@drawable/ic_conference"
-                                tools:ignore="VectorDrawableCompat">
-
-                            </ImageView>
-
-
-                        </RelativeLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Conference \n  Schedule"
-                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
-                                android:textColor="#4B8C49"
-                                android:textSize="14dp"
-                                android:textStyle="bold">
-
-
-                            </TextView>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="#4AC142"
-            android:orientation="vertical"
-            android:padding="2dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:layout_weight="1"
-                android:background="#4AC142"
-                android:orientation="horizontal">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:visibility="visible"
-                    app:cardCornerRadius="2dp"
-                    app:cardElevation="2dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:orientation="vertical"
-                        android:padding="@dimen/spacing_large">
-
-                        <RelativeLayout
-                            android:layout_width="70dp"
-                            android:layout_height="70dp"
-                            android:layout_gravity="center_horizontal">
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_centerInParent="true"
-                                android:tint="#313E81"
-                                app:srcCompat="@drawable/shape_circle">
-
-                            </ImageView>
-
-                            <ImageView
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:layout_centerInParent="true"
-                                android:tint="@android:color/white"
-                                app:srcCompat="@drawable/ic_baseline_event_24"
-                                tools:ignore="VectorDrawableCompat">
-
-                            </ImageView>
-
-
-                        </RelativeLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Event"
-                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
-                                android:textColor="#4B8C49"
-                                android:textSize="14dp"
-                                android:textStyle="bold">
-
-
-                            </TextView>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <View
-                    android:layout_width="2dp"
-                    android:layout_height="match_parent" />
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:visibility="visible"
-                    app:cardCornerRadius="2dp"
-                    app:cardElevation="2dp">
-
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -939,11 +626,14 @@
 
                     </LinearLayout>
 
+
+
                 </androidx.cardview.widget.CardView>
 
             </LinearLayout>
 
         </LinearLayout>
+
 
 
         <LinearLayout
@@ -968,7 +658,6 @@
                     android:visibility="visible"
                     app:cardCornerRadius="2dp"
                     app:cardElevation="2dp">
-
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -1025,6 +714,7 @@
 
                     </LinearLayout>
 
+
                 </androidx.cardview.widget.CardView>
 
                 <View
@@ -1038,7 +728,251 @@
                     android:visibility="visible"
                     app:cardCornerRadius="2dp"
                     app:cardElevation="2dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:padding="@dimen/spacing_large">
 
+                        <RelativeLayout
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center_horizontal">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerInParent="true"
+                                android:tint="#313E81"
+                                app:srcCompat="@drawable/shape_circle">
+
+                            </ImageView>
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_centerInParent="true"
+                                android:tint="@android:color/white"
+                                app:srcCompat="@drawable/ic_baseline_event_24"
+                                tools:ignore="VectorDrawableCompat">
+
+                            </ImageView>
+
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Event"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                                android:textColor="#4B8C49"
+                                android:textSize="14dp"
+                                android:textStyle="bold">
+
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#4AC142"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:background="#4AC142"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="visible"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:padding="@dimen/spacing_large">
+
+                        <RelativeLayout
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center_horizontal">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerInParent="true"
+                                android:tint="#A861C6"
+                                app:srcCompat="@drawable/shape_circle">
+
+                            </ImageView>
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_centerInParent="true"
+                                android:tint="@android:color/white"
+                                app:srcCompat="@drawable/ic_conference"
+                                tools:ignore="VectorDrawableCompat">
+
+                            </ImageView>
+
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Conference \n  Schedule"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                                android:textColor="#4B8C49"
+                                android:textSize="14dp"
+                                android:textStyle="bold">
+
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="visible"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:padding="@dimen/spacing_large">
+
+                        <RelativeLayout
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center_horizontal">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerInParent="true"
+                                android:tint="#D3BF83"
+                                app:srcCompat="@drawable/shape_circle">
+
+                            </ImageView>
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_centerInParent="true"
+                                android:tint="#4C3E3E"
+                                app:srcCompat="@drawable/ic_live_chat"
+                                tools:ignore="VectorDrawableCompat">
+
+                            </ImageView>
+
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Live Chat"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                                android:textColor="#4B8C49"
+                                android:textSize="14dp"
+                                android:textStyle="bold">
+
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#4AC142"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:background="#4AC142"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="visible"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -1094,6 +1028,79 @@
                         </LinearLayout>
 
                     </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="visible"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="2dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:padding="@dimen/spacing_large">
+
+                        <RelativeLayout
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center_horizontal">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_centerInParent="true"
+                                android:tint="#3A9162"
+                                app:srcCompat="@drawable/shape_circle">
+
+                            </ImageView>
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_centerInParent="true"
+                                android:tint="@android:color/white"
+                                app:srcCompat="@drawable/ic_hotnumber"
+                                tools:ignore="VectorDrawableCompat">
+
+                            </ImageView>
+
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Hot Number"
+                                android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                                android:textColor="#4B8C49"
+                                android:textSize="14dp"
+                                android:textStyle="bold">
+
+
+                            </TextView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
 
                 </androidx.cardview.widget.CardView>
 
