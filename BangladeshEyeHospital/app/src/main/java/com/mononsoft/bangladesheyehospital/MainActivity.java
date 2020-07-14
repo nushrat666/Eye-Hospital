@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.nav_appointment:
-                Toast.makeText(this, "User Request Selected", Toast.LENGTH_SHORT).show();
-                //TODO: right the proper logic for different situations
+                Intent intent2= new Intent(getApplicationContext(),AppoinmentActivity.class);
+                startActivity(intent2);
                 break;
 
             case R.id.nav_doctors_profile:
