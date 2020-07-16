@@ -51,19 +51,34 @@
 
             >
         </TextView>
-        <TextView
-            android:textColor="#FAF7F7"
-            android:textSize="15dp"
-            android:id="@+id/email"
+
+        <RelativeLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="info@bdeyehospital.com"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:tint="#1C2320"
+                app:srcCompat="@drawable/ic_hotnumber"
+                android:id="@+id/hotNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
 
-            >
 
+                >
 
-        </TextView>
+            </ImageView>
+
+            <TextView
+
+android:textStyle="italic|bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/hotNumber"
+                android:text="hot Number">
+
+            </TextView>
+        </RelativeLayout>
+
 
 
 
