@@ -8,22 +8,29 @@
             android:icon="@drawable/ic_home"
             android:title="Home" />
         <item
-            android:id="@+id/nav_login"
-            android:icon="@drawable/ic_login"
-            android:title="Login" />
+            android:id="@+id/nav_doctors_profile"
+            android:icon="@drawable/ic_doctors_profile"
+            android:title="Doctors profile" />
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/ic_user_request"
+            android:title="Appointment" />
         <item
             android:id="@+id/nav_order"
             android:icon="@drawable/ic_order"
             android:title="Order" />
         <item
-            android:id="@+id/nav_appointment"
-            android:icon="@drawable/ic_user_request"
-            android:title="Appointment" />
+            android:id="@+id/nav_branches"
+            android:icon="@drawable/ic_branches"
+            android:title="Branches" />
 
         <item
-            android:id="@+id/nav_doctors_profile"
-            android:icon="@drawable/ic_doctors_profile"
-            android:title="Doctors profile" />
+            android:id="@+id/nav_liveChat"
+            android:icon="@drawable/ic_baseline_forum_24"
+            android:title="Live Chat" />
+
+
+
         <item
             android:id="@+id/nav_services"
             android:icon="@drawable/ic_services"
@@ -32,14 +39,20 @@
             android:id="@+id/nav_message"
             android:icon="@drawable/ic_baseline_message_24"
             android:title="Message" />
-        <item
-            android:id="@+id/nav_branches"
-            android:icon="@drawable/ic_branches"
-            android:title="Branches" />
+
         <item
             android:id="@+id/nav_about"
             android:icon="@drawable/ic_about"
             android:title="About" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_login"
+            android:title="Login" />
+
+        <item
+            android:id="@+id/nav_Logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
        
     </group>
     <group
