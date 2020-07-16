@@ -16,7 +16,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AppoinmentActivity"></activity>
+        <activity android:name=".ServiceActivity"></activity>
+        <activity android:name=".AppoinmentActivity" />
         <activity android:name=".AboutActivity" />
         <activity android:name=".OrderActivity" />
         <activity android:name=".MainActivity">
