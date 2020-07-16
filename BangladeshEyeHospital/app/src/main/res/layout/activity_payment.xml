@@ -94,7 +94,7 @@
 
 
                     </RelativeLayout>
-                    
+
 
                 </LinearLayout>
 
@@ -206,7 +206,7 @@
                                 android:layout_height="150dp"
                                 android:layout_centerInParent="true"
 
-                                app:srcCompat="@drawable/cr"
+                                app:srcCompat="@drawable/ng"
                                 tools:ignore="VectorDrawableCompat">
 
                             </ImageView>
@@ -258,7 +258,7 @@
                                 android:layout_height="150dp"
                                 android:layout_centerInParent="true"
 
-                                app:srcCompat="@drawable/ng"
+                                app:srcCompat="@drawable/cr"
                                 tools:ignore="VectorDrawableCompat">
 
                             </ImageView>
