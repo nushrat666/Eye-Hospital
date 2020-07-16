@@ -98,8 +98,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(intent1);
                 break;
             case R.id.nav_admin:
-                Toast.makeText(this, "Admin Selected", Toast.LENGTH_SHORT).show();
-                //TODO: right the proper logic for different situations
+                Intent intent4= new Intent(getApplicationContext(),AdminActivity.class);
+                startActivity(intent4);
                 break;
 
 
