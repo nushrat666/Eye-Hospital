@@ -17,6 +17,8 @@
         >
     </ImageView>
 
+    
+
     <com.mikhaellopez.circularimageview.CircularImageView
 
         android:id="@+id/avatar"
