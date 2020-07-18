@@ -53,8 +53,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         switch (menuItem.getItemId()){
             case R.id.nav_home:
-                Toast.makeText(this, "Home Selected", Toast.LENGTH_SHORT).show();
-                //TODO: right the proper logic for different situations
+                Intent intent6= new Intent(getApplicationContext(),MainActivity.class);
+                startActivity(intent6);
                 break;
 
             case R.id.nav_login:
