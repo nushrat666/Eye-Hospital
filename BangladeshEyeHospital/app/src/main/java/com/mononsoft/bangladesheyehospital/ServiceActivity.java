@@ -27,4 +27,8 @@ public class ServiceActivity extends AppCompatActivity {
         Intent intent = new Intent(ServiceActivity.this,Payment.class);
         startActivity(intent);
     }
+    public void ServiceFacilities(View view) {
+        Intent intent = new Intent(ServiceActivity.this,ServiceFacilities.class);
+        startActivity(intent);
+    }
 }

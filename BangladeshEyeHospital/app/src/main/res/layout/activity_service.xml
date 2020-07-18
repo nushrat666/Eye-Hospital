@@ -181,6 +181,7 @@
                                 android:layout_height="wrap_content" />
 
                             <ImageButton
+                                android:onClick="ServiceFacilities"
                                 android:layout_width="@dimen/spacing_xmlarge"
                                 android:layout_height="@dimen/spacing_xmlarge"
                                 android:background="@android:color/transparent"
