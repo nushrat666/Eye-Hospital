@@ -16,7 +16,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ServiceFacilities"></activity>
+        <activity android:name=".Message"></activity>
+        <activity android:name=".ServiceFacilities" />
         <activity android:name=".Payment" />
         <activity android:name=".AdminActivity" />
         <activity android:name=".ServiceActivity" />

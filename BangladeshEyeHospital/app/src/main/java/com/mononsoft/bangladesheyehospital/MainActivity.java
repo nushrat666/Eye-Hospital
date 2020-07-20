@@ -83,8 +83,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.nav_message:
-                Toast.makeText(this, "Message Selected", Toast.LENGTH_SHORT).show();
-                //TODO: right the proper logic for different situations
+                Intent intent8= new Intent(getApplicationContext(),Message.class);
+                startActivity(intent8);
                 break;
             case R.id.nav_branches:
                 Toast.makeText(this, "Branches Selected", Toast.LENGTH_SHORT).show();
