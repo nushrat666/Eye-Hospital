@@ -5,4 +5,18 @@
     <string name="version_unknown">Unknown</string>
     <string name="app_version">Version</string>
     <string name="logo_description">Logo Description</string>
+
+    <string name="long_lorem_ipsum_2">
+   Since its humble beginning over 9 years ago, Bangladesh Eye Hospital Ltd. has come a long way. Today, Bangladesh Eye Hospital Ltd. is synonymous with world-class eye care and expertise. We pride ourselves in being the #1 eye hospital in Bangladesh.
+
+\n\nBangladesh Eye Hospital Ltd. has now become the trendsetter for the eye care sector in the country. Our aim is to serve the community with outstanding patient care and the latest in medical advancements. We have always felt a responsibility to offer healthcare consumers the latest in advanced eye care at an affordable cost with a focus on superior customer service.
+
+\n\nToday, our family is growing bigger and bigger. At present Bangladesh Eye Hospital Ltd. have 32 consultants, 34 medical officers and over 250 staff. Each trained to give exemplary care to every patient, without discrimination.
+    </string>
+
+    <string name="long_lorem_ipsum">
+       I attribute the credit for the overwhelming success of Bangladesh Eye Hospital Ltd. to my team. For they have always shared responsibilities equally, celebrated every achievement and extended a firm helping hand at the time of crisis. It is with their support, courage and motivation that I have been able to tread this memorable path.
+
+\n\nTogether, with your support, I am certain that we can grow even bigger and go on to become the best eye care service provider in the region.
+    </string>
 </resources>
